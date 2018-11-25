@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+nav {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+nav a {
+  color: #d3d3d3;
+  font-family: "Slabo", sans-serif;
+  font-size: 18px;
+  padding: 10px 50px 10px 50px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+.stickynav {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.hamburger {
+  color: #d3d3d3;
+	font-size: 27px;
+	padding: 10px 30px;
+  display: none;
+}
+.toggleHamburger {
+  text-align: left;
+  font-size: 12px;
+  width: 100%;
+  margin-left: 70px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: white; /* Black fallback color */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or*/
+}
+header {
+  color: #d3d3d3;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#headerimg {
+  width: 28%;
+}
+header #headerimg img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: solid 4px #ffc87a;
+}
+#headertext {
+  width: 68%;
+}
+header #headertext img {
+  width: 550px;
+  margin-top: 8px;
+  margin-bottom: 45px;
+  transform: 1s all;
+}
+header .collegeandwork_text {
+  margin-top: 120px;
+  margin-left: 25px;
+}
+header #headertext p {
+  margin-top: -30px;
+}
+header .collegeandwork img {
+  max-width: 200px;
+}
+header h3 {
+  font-family: "Slabo", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: -35px;
+}
+hr {
+  border: solid 2px #ffc87a;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+section h2 {
+  font-family: "Slabo", sans-serif;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 130px;
+  margin-right: 130px;
+  padding: 10px;
+  text-align: center;
+  background-color: #d3d3d3;
+}
+#index {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.homesection {
+  width: 29%;
+  margin: 0 auto;
+}
+main section .homeimg {
+  max-width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  margin-top: -50px;
+  z-index: 1;
+  margin-bottom: 50px;
+  transition: 1s all;
+}
+main section .homesection {
+  width: 28%;
+}
+main section .homeimggraphic img {
+  padding-top: 10px;
+  border-radius: 50%;
+}
+section div a img {
+  max-width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+main section #index img {
+  margin-top: -80px;
+}
+#connectimg img {
+  max-width: 215px;
+}
+#connecttext {
+  font-family: "Slabo", sans-serif;
+  color: #d3d3d3;
+}
+#connecttext2 {
+  display: none;
+}
+#connect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 80%;
+  margin-top: 50px;
+}
+#connectpageright {
+  width: 58%;
+}
+#connectpageleft {
+  width: 29%;
+}
+#hellolizzie {
+  max-width: 450px;
+  margin-bottom: 5px;
+}
+main section div #headertext #hellolizzie img {
+  width: 500px;
+  margin-top: -2px;
+}
+section #funfacts img {
+  max-width: 250px;
+  margin: 0 auto;
+  padding-left: 130px;
+}
+section div #connectbubbles {
+  width: 20%;
+  margin: 0;
+}
+#funfacts {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.funfactnumbers {
+  background-color: #ffc87a;
+  width: 15px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+.funinfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.funfactcolumns {
+  width: 29%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.funfactcolumns p {
+  font-family: "Slabo", sans-serif;
+  color: #d3d3d3;
+  text-align: center;
+}
+section div button {
+	background-color: #3C4A53;
+	border: none;
+	font-size: .9rem;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 8px 15px;
+  margin: 10px;
+}
+section div .slick-wrapper {
+  max-width: 40%;
+  margin: 0 auto;
+}
+.slick-slide img {
+  margin: 0 auto;
+}
+.slick-next {
+display: block;
+background-color: grey;
+color: white;
+}
+.slick-prev {
+display: block;
+background-color: grey;
+color: white;
+}
+.slick-wrapper img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.slick-wrapper {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.slick-wrapper p {
+  font-family: "Slabo", sans-serif;
+  color: #d3d3d3;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+}
+next:hover, .slick-next:focus, prev:hover, .slick-prev:focus, {
+    color: white;
+    outline: white;
+    background: grey;
+    -webkit-tap-highlight-color: white;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: white;
+    outline: white;
+    background: grey;
+    -webkit-tap-highlight-color: white;
+}
+footer {
+	background-color: #d3d3d3;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	margin-top: 30px;
+}
+footer a {
+  color: white;
+}
+footer p {
+  color: white;
+  font-family: "Slabo", sans-serif;
+  font-size: 11px;
+}
+.stickyfooter {
+  position: sticky;
+  bottom: 0;
+}
+@media screen and (max-width: 960px) {
+  header #headerimg img {
+    max-width: 80%;
+  }
+  header #headertext img {
+    max-width: 80%;
+  }
+  section h2 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  #connect {
+    justify-content: space-between;
+  }
+  #connectpageleft {
+    max-width: 20%;
+  }
+  #connectpageright {
+    max-width: 50%;
+  }
+  #hellolizzie {
+    max-width: 300px;
+    margin-bottom: 5px;
+  }
+  section #funfacts img {
+    max-width: 150px;
+    margin: 0 auto;
+    padding-left: 90px;
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+  header #headerimg img {
+    max-width: 100%;
+  }
+  header #headertext img {
+    max-width: 100%;
+  }
+  header {
+    margin: 0 auto;
+  }
+  #headertext h3 {
+    max-width: 80%;
+    font-size: 12px;
+  }
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+
+  }
+  .nav-wrapper a {
+    text-align: left;
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  #index {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .homesection {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main section .homesection {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .collegeandwork_text h3 {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+  .collegeandwork div img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  header .collegeandwork_text {
+    margin-top: 15px;
+  }
+  section h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 8px;
+    font-size: 25px;
+  }
+  .collegeandworkheader {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 630px) {
+  #connecttext {
+    display: none;
+  }
+  #connecttext2 {
+    display: block;
+    font-family: "Slabo", sans-serif;
+    color: #d3d3d3;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  #connecttext2 p {
+    width: 350px;
+  }
+  #connect {
+    display: block;
+    max-width: 80%;
+  }
+  #connectpageleft {
+    max-width: 100%;
+  }
+  #connectpageright {
+    max-width: 100%;
+  }
+  #hellolizzie {
+    max-width: 350px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  section #funfacts img {
+    max-width: 250px;
+  }
+  #connectbubbles a {
+    display: inline-block;
+    width: 300px;
+  }
+  .funinfo {
+    display: block;
+  }
+  .funfactcolumns {
+    width: 100%;
+    display: inline-block;
+  }
+  .funfactcolumns p {
+    width: 250px;
+    text-align: center;
+  }
+  .funfactnumbers {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .nav-wrapper a {
+    text-align: left;
+    display: block;
+  }
+  header {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+  header #headerimg img {
+    max-width: 100%;
+  }
+  #headerimg {
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+  }
+  #headertext, #headertext h3 {
+    margin: 0 auto;
+    display: block;
+  }
+  header #headertext img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .homesection {
+    text-align: center;
+  }
+  .collegeandwork {
+    text-align: center;
+  }
+  #connectimg img {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  #hellolizzie {
+    margin: 0 auto;
+    max-width: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #connectbubbles {
+    text-align: center;
+  }
+  nav {
+    display: none;
+  }
+  .collegeandwork_text h3 {
+    font-size: 12px;
+    margin: 0 auto;
+  }
+  section h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 6px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+  header #headerimg img {
+    max-width: 100%;
+  }
+  header #headertext img {
+    max-width: 100%;
+  }
+  section h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  header .collegeandwork_text {
+    margin-top: 25px;
+  }
+  #hellolizzie {
+    max-width: 275px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  section #funfacts img {
+    max-width: 150px;
+    margin-left: 0;
+    align-self: left;
+  }
+  #connecttext2 p {
+    width: 275px;
+  }
+}
